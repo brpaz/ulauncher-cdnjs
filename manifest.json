@@ -1,0 +1,25 @@
+{
+    "manifest_version": "2",
+    "api_version": "1",
+    "name": "cdnjs",
+    "description": "Search frontend libraries on cdnjs.com",
+    "developer_name": "Bruno Paz",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.8
+    },
+    "preferences": [
+        {
+            "id": "kw",
+            "type": "keyword",
+            "name": "cdnjs",
+            "default_value": "cdnjs"
+        },
+         {
+             "id": "max_results",
+             "type": "input",
+             "name": "Maximum results results to display",
+             "default_value": "10"
+         }
+    ]
+}
